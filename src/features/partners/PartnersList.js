@@ -13,7 +13,7 @@ const PartnersList = () => {
                         <Partner partner={partner} />
                     </div>
                 );
-            })};
+            })}
         </Col>
     );
 };

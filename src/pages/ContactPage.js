@@ -1,6 +1,7 @@
 import { Container, Col, Row } from 'reactstrap';
 import SubHeader from '../components/SubHeader';
-
+import { Formik, Form, Field, ErrorMessage } from 'formik';
+import ContactForm from '../components/ContactForm';
 
 const ContactPage = () => {
     return (
@@ -42,7 +43,7 @@ const ContactPage = () => {
                 
                 </Col>
                 <Col md='10'>
-                    TBD: ContactForm
+                    <ContactForm />
                 </Col>
                 
             </Row>
